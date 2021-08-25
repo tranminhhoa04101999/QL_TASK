@@ -54,7 +54,7 @@ const LoginScreen = (props: any) => {
 
             <View style={styles.input}>
                 <TextInput style={styles.icon} editable= {false}><Icon name="lock" size={20}/></TextInput>
-                <TextInput style={styles.textInput} autoCapitalize='none'
+                <TextInput style={styles.textInput} autoCapitalize='none' autoCompleteType = 'password'
                             onChangeText={text => setPassword(text)} returnKeyType='go' placeholder="mật khẩu" />
             </View>
             <View style={styles.buttons}>

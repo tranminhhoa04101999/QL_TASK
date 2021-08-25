@@ -9,7 +9,7 @@ import loginRS from './Resub/loginRS';
 
 //
 
-export const LINKBASE = "http://192.168.1.3:8089";
+export const LINKBASE = "http://192.168.1.7:8089";
 
 const loginResubC = new loginRS();
 export const loginStore = createContext(loginResubC);
